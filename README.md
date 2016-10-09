@@ -8,15 +8,20 @@ Still in early development. Currently only logs you in and unlocks a domain and 
 ### Installation
 `npm i joker-auto -g`
 
+Add your joker.com login credentials to the joker.js file.
+
 ### Login
 `joker-auto login`
+
 This command returns the temporary (1h) session id.
 
 ###Order auth-id
 `joker-auto getkey domain.com <INSERT THE SESSION ID HERE>`
+
 This will queue the auth-id order. You will have to wait a bit.
 You will get the queue ID here.
 
 ### Show auth-id
 `joker-auto showkey <INSERT THE QUEUE ID HERE> <INSERT THE SESSION ID HERE>`
+
 If you do this too fast. You will not get the auth-id. Patience is key.
