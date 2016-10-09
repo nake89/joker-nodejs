@@ -1,0 +1,31 @@
+{
+  "name": "joker",
+  "version": "1.0.0",
+  "description": "Package for managing your Joker.com account.",
+  "main": "joker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nake89/joker-nodejs.git"
+  },
+  "keywords": [
+    "joker",
+    "api",
+    "auth-id",
+    "tranfer",
+    "unlock",
+    "lock",
+    "domain"
+  ],
+  "author": "Kevin Kivi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nake89/joker-nodejs/issues"
+  },
+  "homepage": "https://github.com/nake89/joker-nodejs#readme",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}
